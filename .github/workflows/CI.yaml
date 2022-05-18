@@ -21,6 +21,9 @@ jobs:
       - name: Install Foreman Toolchains
         run: foreman install
 
+      - name: Create Packages Directory
+        run: mkdir Packages
+
       - name: Install Dependencies
         run: wally install
 
