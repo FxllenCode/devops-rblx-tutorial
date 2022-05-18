@@ -21,11 +21,11 @@ jobs:
       - name: Install Foreman Toolchains
         run: foreman install
 
-      - name: Create Packages Directory
-        run: mkdir Packages
-
       - name: Install Dependencies
         run: wally install
+
+      - name: Create Packages Directory
+        run: mkdir -p Packages
 
       - name: Run Stylua
         run: stylua lib --check
