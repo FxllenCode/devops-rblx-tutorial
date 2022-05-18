@@ -1,0 +1,8 @@
+# Project place file
+/devops-rblx-tutorial.rbxlx
+
+# Roblox Studio lock files
+/*.rbxlx.lock
+/*.rbxl.lock
+
+pack.rbxm

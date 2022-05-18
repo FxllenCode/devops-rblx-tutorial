@@ -1,0 +1,6 @@
+{
+  "name": "hello_world",
+  "tree": {
+    "$path": "lib"
+  }
+}

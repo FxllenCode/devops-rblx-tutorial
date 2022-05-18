@@ -1,0 +1,12 @@
+{
+    "name": "hello_world",
+    "tree": {
+      "$path": "Include/Linking.lua",
+      "Packages": {
+        "$path": "Packages",
+        "hello_world": {
+            "$path": "lib"
+        }        
+      }
+    }
+  }

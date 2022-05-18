@@ -1,0 +1,27 @@
+{
+    "name": "hello_world testing",
+    "tree": {
+      "$className": "DataModel",
+      "ReplicatedStorage": {
+        "$className": "ReplicatedStorage",
+        "hello_world": {
+            "$path": "Include/Linking.lua",
+            "Packages": {
+                "$path": "Packages",
+                "hello_world": {
+                    "$path": "lib"
+                }        
+              }
+        
+      }
+       
+      },
+      "ServerScriptService": {
+          "$className": "ServerScriptService",
+          "Server": {
+            "$path": "testing"
+          }
+      }
+    }
+    
+  }
