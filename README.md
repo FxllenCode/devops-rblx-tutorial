@@ -530,10 +530,10 @@ jobs:
         run: foreman install
 
       - name: Run Stylua
-        run: stylua . --check
+        run: stylua lib --check
 
       - name: Run Selene
-        run : selene .
+        run : selene lib
 
       - name: Install Dependencies
         run: wally install
