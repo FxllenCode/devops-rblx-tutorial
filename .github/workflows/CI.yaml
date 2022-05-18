@@ -64,6 +64,7 @@ jobs:
           name: ${{ steps.read_toml.outputs.value }}
           tag_name: ${{ steps.read_toml.outputs.value }}
           generate_release_notes: true
+          files: pack.rbxm
           draft: true
 
   development: 

@@ -510,6 +510,7 @@ jobs:
         with: 
           name: ${{ steps.read_toml.outputs.value }}
           tag_name: ${{ steps.read_toml.outputs.value }}
+          files: pack.rbxm
           generate_release_notes: true
           draft: true
 
